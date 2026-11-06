@@ -2,5 +2,5 @@ __pycache__/
 *.py[cod]
 .venv/
 outputs/
-data/external/
+data/external/*.zip
 .DS_Store

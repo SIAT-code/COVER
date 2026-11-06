@@ -4,7 +4,9 @@ Minimal code release accompanying **COVER: Context-conditioned stacking of
 zero-shot protein fitness experts for variant ranking without labels from the
 target assay**, manuscript version 1.7.
 
-[Download the v1.7.0 package](https://github.com/SIAT-code/COVER/releases/download/v1.7.0/COVER-v1.7.0-minimal.zip).
+This is the first public software release, **v1.0.0**, accompanying manuscript **v1.7**.
+
+[Download the v1.0.0 package](https://github.com/SIAT-code/COVER/releases/download/v1.0.0/COVER-v1.0.0-minimal.zip).
 
 COVER learns a Ridge combination of six fixed expert scores from historical
 DMS assays. The full model has 139 predictors: six expert ranks, 19 context

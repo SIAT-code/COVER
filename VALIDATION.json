@@ -1,5 +1,5 @@
 {
-  "release": "v1.7.0",
+  "release": "v1.0.0",
   "validation_date": "2026-11-06",
   "tested_environment": {
     "python": "3.10.16",

@@ -1,0 +1,313 @@
+assay_id,protein,selection,model,metric,value,n
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,best_found_rank_10,0.9857973990417522,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,best_found_rank_100,0.9885352498288843,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,best_found_rank_50,0.9885352498288843,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,exact_topk_1,0.0,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,exact_topk_10,0.347008547008547,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,exact_topk_5,0.17064846416382254,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,ndcg_1,0.8765920653764904,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,ndcg_10,0.8702087552313569,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,ndcg_5,0.8680551106103367,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,spearman,0.5892003253849022,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,top_decile_precision_10,0.8,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,top_decile_precision_100,0.45,5843
+urn:mavedb:00000657-a-1,P45381,Expression,COVER,top_decile_precision_50,0.62,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,best_found_rank_10,0.9857973990417522,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,best_found_rank_100,0.9921286789869952,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,best_found_rank_50,0.9921286789869952,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,exact_topk_1,0.01694915254237288,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,exact_topk_10,0.37264957264957266,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,exact_topk_5,0.20819112627986347,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,ndcg_1,0.9100396470786826,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,ndcg_10,0.8851506547568274,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,ndcg_5,0.8905919833477736,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,spearman,0.594626799725299,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,top_decile_precision_10,0.7,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,top_decile_precision_100,0.51,5843
+urn:mavedb:00000657-a-1,P45381,Expression,Fixed fusion,top_decile_precision_50,0.62,5843
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,best_found_rank_10,0.9214022140221402,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,best_found_rank_100,0.9793357933579335,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,best_found_rank_50,0.9793357933579335,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,exact_topk_1,0.0,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,exact_topk_10,0.15498154981549817,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,exact_topk_5,0.0661764705882353,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,ndcg_1,0.78483999297664,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,ndcg_10,0.8099856356698525,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,ndcg_5,0.7955548470527901,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,spearman,0.6435454951083958,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,top_decile_precision_10,0.1,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,top_decile_precision_100,0.15,2709
+urn:mavedb:00000665-a-1,P26367,Binding,COVER,top_decile_precision_50,0.2,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,best_found_rank_10,0.8760147601476015,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,best_found_rank_100,0.9738007380073801,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,best_found_rank_50,0.9738007380073801,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,exact_topk_1,0.0,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,exact_topk_10,0.14760147601476015,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,exact_topk_5,0.058823529411764705,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,ndcg_1,0.7933914971999291,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,ndcg_10,0.8051266189400024,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,ndcg_5,0.7959657475811976,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,spearman,0.6298501211750169,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,top_decile_precision_10,0.0,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,top_decile_precision_100,0.13,2709
+urn:mavedb:00000665-a-1,P26367,Binding,Fixed fusion,top_decile_precision_50,0.14,2709
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,best_found_rank_10,0.7616926503340757,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,best_found_rank_100,0.9985152190051967,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,best_found_rank_50,0.9985152190051967,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,exact_topk_1,0.037037037037037035,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,exact_topk_10,0.07777777777777778,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,exact_topk_5,0.022222222222222223,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,ndcg_1,0.6535732377353483,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,ndcg_10,0.6915760585813077,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,ndcg_5,0.6710153228251883,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,spearman,0.5502463862740441,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,top_decile_precision_10,0.0,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,top_decile_precision_100,0.03,2693
+urn:mavedb:00000665-b-1,P26367,Binding,COVER,top_decile_precision_50,0.06,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,best_found_rank_10,0.8184855233853007,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,best_found_rank_100,0.9985152190051967,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,best_found_rank_50,0.9985152190051967,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,exact_topk_1,0.0,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,exact_topk_10,0.07777777777777778,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,exact_topk_5,0.044444444444444446,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,ndcg_1,0.6526649581373452,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,ndcg_10,0.7011282070238416,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,ndcg_5,0.6869790890643375,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,spearman,0.5467345717893536,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,top_decile_precision_10,0.0,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,top_decile_precision_100,0.09,2693
+urn:mavedb:00000665-b-1,P26367,Binding,Fixed fusion,top_decile_precision_50,0.12,2693
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,best_found_rank_10,0.991321118611379,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,best_found_rank_100,0.9971070395371263,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,best_found_rank_50,0.991321118611379,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,exact_topk_1,0.09090909090909091,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,exact_topk_10,0.2980769230769231,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,exact_topk_5,0.1346153846153846,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,ndcg_1,0.783226105810786,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,ndcg_10,0.8254009233817916,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,ndcg_5,0.7910085746452595,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,spearman,0.7371982558361431,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,top_decile_precision_10,0.3,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,top_decile_precision_100,0.3,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,COVER,top_decile_precision_50,0.24,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,best_found_rank_10,0.973963355834137,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,best_found_rank_100,0.9990356798457087,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,best_found_rank_50,0.9922854387656702,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,exact_topk_1,0.0,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,exact_topk_10,0.3269230769230769,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,exact_topk_5,0.15384615384615385,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,ndcg_1,0.8584266278078817,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,ndcg_10,0.8339446435535504,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,ndcg_5,0.8314580898094794,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,spearman,0.7216647312003798,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,top_decile_precision_10,0.5,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,top_decile_precision_100,0.32,1036
+urn:mavedb:00000683-a-1,Q8N157,Stability,Fixed fusion,top_decile_precision_50,0.3,1036
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,best_found_rank_10,0.906112161310649,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,best_found_rank_100,0.998109640831758,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,best_found_rank_50,0.998109640831758,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,exact_topk_1,0.0,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,exact_topk_10,0.2578616352201258,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,exact_topk_5,0.15,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,ndcg_1,0.77911482481707,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,ndcg_10,0.7960043806342294,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,ndcg_5,0.782158409168967,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,spearman,0.6728360320919355,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,top_decile_precision_10,0.1,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,top_decile_precision_100,0.27,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,COVER,top_decile_precision_50,0.34,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,best_found_rank_10,0.9691241335853812,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,best_found_rank_100,0.998109640831758,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,best_found_rank_50,0.9886578449905482,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,exact_topk_1,0.0,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,exact_topk_10,0.27672955974842767,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,exact_topk_5,0.1375,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,ndcg_1,0.8246313701764066,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,ndcg_10,0.8237078362734324,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,ndcg_5,0.8212446934862985,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,spearman,0.661861290197954,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,top_decile_precision_10,0.3,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,top_decile_precision_100,0.3,1586
+urn:mavedb:00000766-a-1,Q92796,Stability,Fixed fusion,top_decile_precision_50,0.34,1586
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,best_found_rank_10,0.9720989220038047,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,best_found_rank_100,0.9854153455928979,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,best_found_rank_50,0.9854153455928979,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,exact_topk_1,0.0,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,exact_topk_10,0.15822784810126583,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,exact_topk_5,0.06329113924050633,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,ndcg_1,0.6018292778033916,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,ndcg_10,0.683122528410587,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,ndcg_5,0.6648690903105993,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,spearman,0.35813238861183627,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,top_decile_precision_10,0.1,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,top_decile_precision_100,0.19,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,COVER,top_decile_precision_50,0.14,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,best_found_rank_10,0.9302473050095117,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,best_found_rank_100,0.9980976537729866,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,best_found_rank_50,0.9854153455928979,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,exact_topk_1,0.0,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,exact_topk_10,0.17721518987341772,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,exact_topk_5,0.0759493670886076,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,ndcg_1,0.7602528009436115,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,ndcg_10,0.7211708132829701,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,ndcg_5,0.7141648219216526,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,spearman,0.35987843619804083,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,top_decile_precision_10,0.2,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,top_decile_precision_100,0.17,1576
+urn:mavedb:00000794-a-1,Q09472,Stability,Fixed fusion,top_decile_precision_50,0.22,1576
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,best_found_rank_10,0.9811320754716981,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,best_found_rank_100,0.9952830188679245,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,best_found_rank_50,0.9952830188679245,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,exact_topk_1,0.058823529411764705,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,exact_topk_10,0.2647058823529412,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,exact_topk_5,0.11764705882352941,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,ndcg_1,0.7729604345105101,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,ndcg_10,0.8215756035528062,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,ndcg_5,0.8167122733312477,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,spearman,0.679996584573684,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,top_decile_precision_10,0.5,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,top_decile_precision_100,0.28,1695
+urn:mavedb:00000813-a-1,O75369,Stability,COVER,top_decile_precision_50,0.34,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,best_found_rank_10,0.9439858490566038,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,best_found_rank_100,0.9952830188679245,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,best_found_rank_50,0.9829009433962265,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,exact_topk_1,0.0,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,exact_topk_10,0.3235294117647059,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,exact_topk_5,0.15294117647058825,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,ndcg_1,0.8305142430573262,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,ndcg_10,0.8457638680927438,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,ndcg_5,0.8467205928020834,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,spearman,0.7022969838534514,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,top_decile_precision_10,0.3,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,top_decile_precision_100,0.34,1695
+urn:mavedb:00000813-a-1,O75369,Stability,Fixed fusion,top_decile_precision_50,0.38,1695
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,best_found_rank_10,0.9535269709543569,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,best_found_rank_100,0.983402489626556,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,best_found_rank_50,0.9684647302904564,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,exact_topk_1,0.0,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,exact_topk_10,0.18181818181818182,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,exact_topk_5,0.09836065573770492,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,ndcg_1,0.5605096478544673,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,ndcg_10,0.6614145384666495,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,ndcg_5,0.6254793351739798,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,spearman,0.41687842513458834,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,top_decile_precision_10,0.3,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,top_decile_precision_100,0.19,1204
+urn:mavedb:00000814-a-1,O75369,Stability,COVER,top_decile_precision_50,0.18,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,best_found_rank_10,0.9609958506224067,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,best_found_rank_100,0.9950207468879668,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,best_found_rank_50,0.9825726141078838,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,exact_topk_1,0.0,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,exact_topk_10,0.17355371900826447,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,exact_topk_5,0.06557377049180328,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,ndcg_1,0.6201030781462062,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,ndcg_10,0.6963162969390366,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,ndcg_5,0.6624470511382761,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,spearman,0.4556797440159657,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,top_decile_precision_10,0.2,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,top_decile_precision_100,0.17,1204
+urn:mavedb:00000814-a-1,O75369,Stability,Fixed fusion,top_decile_precision_50,0.16,1204
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,best_found_rank_10,0.9414893617021277,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,best_found_rank_100,0.9923167848699763,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,best_found_rank_50,0.9869976359338062,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,exact_topk_1,0.0,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,exact_topk_10,0.16470588235294117,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,exact_topk_5,0.10588235294117647,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,ndcg_1,0.6093348421405737,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,ndcg_10,0.6631618644296658,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,ndcg_5,0.653367280969431,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,spearman,0.47396609460825256,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,top_decile_precision_10,0.2,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,top_decile_precision_100,0.17,1691
+urn:mavedb:00000815-a-1,O75369,Stability,COVER,top_decile_precision_50,0.24,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,best_found_rank_10,0.9869976359338062,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,best_found_rank_100,0.9988179669030733,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,best_found_rank_50,0.9869976359338062,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,exact_topk_1,0.0,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,exact_topk_10,0.16470588235294117,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,exact_topk_5,0.11764705882352941,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,ndcg_1,0.7952512391621801,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,ndcg_10,0.7200990992099405,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,ndcg_5,0.7202241764653757,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,spearman,0.506835160089404,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,top_decile_precision_10,0.3,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,top_decile_precision_100,0.19,1691
+urn:mavedb:00000815-a-1,O75369,Stability,Fixed fusion,top_decile_precision_50,0.18,1691
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,best_found_rank_10,0.9546578730420445,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,best_found_rank_100,0.998351195383347,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,best_found_rank_50,0.998351195383347,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,exact_topk_1,0.0,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,exact_topk_10,0.319672131147541,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,exact_topk_5,0.21311475409836064,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,ndcg_1,0.6811454591789675,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,ndcg_10,0.7781295191954763,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,ndcg_5,0.7816324055476905,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,spearman,0.5548270825908916,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,top_decile_precision_10,0.4,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,top_decile_precision_100,0.35,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,COVER,top_decile_precision_50,0.42,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,best_found_rank_10,0.9909315746084089,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,best_found_rank_100,0.998351195383347,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,best_found_rank_50,0.998351195383347,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,exact_topk_1,0.07692307692307693,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,exact_topk_10,0.29508196721311475,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,exact_topk_5,0.22950819672131148,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,ndcg_1,0.9441683833657497,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,ndcg_10,0.8255542054741872,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,ndcg_5,0.8449313298615835,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,spearman,0.5223368618409644,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,top_decile_precision_10,0.7,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,top_decile_precision_100,0.3,1212
+urn:mavedb:00000816-a-1,Q06787,Stability,Fixed fusion,top_decile_precision_50,0.42,1212
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,best_found_rank_10,0.9925925925925926,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,best_found_rank_100,0.9925925925925926,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,best_found_rank_50,0.9925925925925926,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,exact_topk_1,0.06666666666666667,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,exact_topk_10,0.26174496644295303,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,exact_topk_5,0.16,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,ndcg_1,0.8156701397831192,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,ndcg_10,0.8241940241192184,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,ndcg_5,0.815112255027955,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,spearman,0.7495330013379256,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,top_decile_precision_10,0.2,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,top_decile_precision_100,0.26,1484
+urn:mavedb:00000866-a-1,O60341,Stability,COVER,top_decile_precision_50,0.22,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,best_found_rank_10,0.9925925925925926,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,best_found_rank_100,0.9993265993265993,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,best_found_rank_50,0.9925925925925926,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,exact_topk_1,0.06666666666666667,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,exact_topk_10,0.2751677852348993,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,exact_topk_5,0.16,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,ndcg_1,0.8098817044536156,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,ndcg_10,0.827414995233584,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,ndcg_5,0.8360912940804689,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,spearman,0.7593483559748772,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,top_decile_precision_10,0.2,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,top_decile_precision_100,0.29,1484
+urn:mavedb:00000866-a-1,O60341,Stability,Fixed fusion,top_decile_precision_50,0.3,1484
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,best_found_rank_10,0.9897435897435898,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,best_found_rank_100,0.9963369963369964,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,best_found_rank_50,0.9941391941391942,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,exact_topk_1,0.07142857142857142,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,exact_topk_10,0.21897810218978103,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,exact_topk_5,0.08695652173913043,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,ndcg_1,0.6518231286326132,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,ndcg_10,0.7349233972942802,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,ndcg_5,0.702188986472145,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,spearman,0.5423520696282393,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,top_decile_precision_10,0.2,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,top_decile_precision_100,0.26,1364
+urn:mavedb:00000895-a-1,P51608,Stability,COVER,top_decile_precision_50,0.18,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,best_found_rank_10,0.9560439560439561,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,best_found_rank_100,0.9963369963369964,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,best_found_rank_50,0.9941391941391942,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,exact_topk_1,0.0,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,exact_topk_10,0.22627737226277372,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,exact_topk_5,0.08695652173913043,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,ndcg_1,0.7740609601721221,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,ndcg_10,0.7657388929042332,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,ndcg_5,0.7617856976386126,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,spearman,0.545596906584292,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,top_decile_precision_10,0.1,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,top_decile_precision_100,0.23,1364
+urn:mavedb:00000895-a-1,P51608,Stability,Fixed fusion,top_decile_precision_50,0.22,1364
