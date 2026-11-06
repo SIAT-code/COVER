@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "release_scope": "COVER manuscript v1.7 frozen Ridge models, metadata and reported results. No training or expert inference was performed during export.",
+  "release_scope": "COVER frozen Ridge models, metadata and reported results. No training or expert inference was performed during export.",
   "model_key_map": {
     "full": "hierarchical_cover",
     "fixed": "fixed_fusion",
