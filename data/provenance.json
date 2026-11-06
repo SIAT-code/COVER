@@ -1,0 +1,368 @@
+{
+  "format_version": 1,
+  "release_scope": "COVER v1.7 frozen Ridge models, metadata and reported results. No training or expert inference was performed during export.",
+  "model_key_map": {
+    "full": "hierarchical_cover",
+    "fixed": "fixed_fusion",
+    "no_interactions": "additive_context",
+    "no_context_main_effects": "ridge_cover"
+  },
+  "coefficient_layout": "intercept followed by feature_names in order",
+  "alternative_fold_seeds": {
+    "1": 555789802,
+    "2": 1522638838,
+    "3": 521937970,
+    "4": 1727196609,
+    "5": 2368668416
+  },
+  "paired_core_statistics": {
+    "clusters": 172,
+    "bootstrap_repeats": 10000,
+    "bootstrap_seed": 20260808,
+    "p_value": "finite-resampling +1 correction",
+    "adjustment": "Holm across four contrasts separately within each aggregation"
+  },
+  "external_scope": {
+    "assays": 12,
+    "proteins": 9,
+    "observations": 24093,
+    "models": [
+      "COVER",
+      "Fixed fusion"
+    ],
+    "endpoints": 13,
+    "reproduction_level": "reaggregate archived assay metrics; no external expert scoring chain or per-fold raw predictions are supplied"
+  },
+  "sources": [
+    {
+      "source_ref": "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/per_assay_spearman.csv",
+      "sha256": "4a7ab819f309b170cd9f8b7cad124eb6e9c808ddfbdb3d3b661ff0b2d7a1e28b",
+      "bytes": 136487
+    },
+    {
+      "source_ref": "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/results/per_assay_spearman_v1.1.1.csv",
+      "sha256": "b653ffdded7a462557f250a64f5aaf702d88758ed1f685b4f8bab1ec617507ad",
+      "bytes": 31951
+    },
+    {
+      "source_ref": "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/results/paired_core_contrasts_v1.1.1.csv",
+      "sha256": "03ffc9d321dcadfa6e27b25e15dc320fa4737d5113b066ef4285a58d02e50977",
+      "bytes": 4072
+    },
+    {
+      "source_ref": "external/ProteinGym/reference_files/DMS_substitutions.csv",
+      "sha256": "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308",
+      "bytes": 208734
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/outer_fold_assignments_v1.0.csv",
+      "sha256": "0e2f173727d744af978a888a563e656ee447a6916c4fc7af562c1c3da6128676",
+      "bytes": 45096
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/cluster_assignments_30pct_v1.0.csv",
+      "sha256": "294157d21d1cb7956f2866faead41727df8182411c512bb81aba79b6c37de532",
+      "bytes": 11069
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/phase2_training_subsample_identifiers_v1.0.csv",
+      "sha256": "4ba174e9864ad9db77db339cbfe86066a4aaa3f318248aecf63287010df3ca19",
+      "bytes": 2882715
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_1_v1.1.csv",
+      "sha256": "6140216544daaad6949a6d4b457d34441ee9dd6f697ee4bdd97e7ecc0654437a",
+      "bytes": 16654
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_2_v1.1.csv",
+      "sha256": "27e5ec442db7b41a7bd88507617bd53fee381107a708718b63c8b037e073bc05",
+      "bytes": 16871
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_3_v1.1.csv",
+      "sha256": "be02b894635ead0d7334af5a17d47676e83dd6e3c52671641f4f66fad1629b15",
+      "bytes": 16654
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_4_v1.1.csv",
+      "sha256": "a4bf12a8af931e150c7bc1590d279f63027add95a8fdbfd149a7191f7f10b1c3",
+      "bytes": 16871
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_5_v1.1.csv",
+      "sha256": "b4f705adae61a4d7b258bb3f76a59bfc57820f48f0d6ab161b37b3cb248d7f6e",
+      "bytes": 16871
+    },
+    {
+      "source_ref": "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/alternative_allocation_effects.csv",
+      "sha256": "754edd84ed16828b87c6a5994176de4f0b1a2a79ac1abd2c5ec8100fe37d5993",
+      "bytes": 1220
+    },
+    {
+      "source_ref": "outputs/COVER_external_12_assay_subset_20261029/assay_metrics_12.csv",
+      "sha256": "761345bbff8ef68eedaed33477a9df704ad19433fb061366c47fb61fe76d5024",
+      "bytes": 27063
+    },
+    {
+      "source_ref": "outputs/COVER_v1.7_targeted_update_20261029/external_checks/mavedb_target_sequence_manifest_12.csv",
+      "sha256": "93d342f7aebb779f6fbfc0ce2dcf7866db7686d0f1a9047c2ffad0806df0a2f0",
+      "bytes": 6405
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/outer_fold_model_summary_v1.0.csv",
+      "sha256": "971435f9e1e904de56064ceb8e46272691cdec26527f88a22e3f46b8a8d9ca03",
+      "bytes": 6819
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/outer_fold_model_summary_v1.0.csv",
+      "sha256": "29683bdab9066e32c8782614d4caecff1d46dd1573187706e49ffa467e90f832",
+      "bytes": 6680
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=0_context_controls.npz",
+      "sha256": "2aebe93b53d192ac0ce8344a582263074a0fd6bd1e78a39b980cc6abde0cc52e",
+      "bytes": 4195
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=0_ridge_state.npz",
+      "sha256": "1f75c36478e036fc6a91f41202b1fda5785a2aeaa2879536fe5e69a1f5c8aa2e",
+      "bytes": 3465
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=1_context_controls.npz",
+      "sha256": "0ce25a3ac6af8f1fe5e5712099ea2fa559bc504c22f2c260d1263efa1fc5a200",
+      "bytes": 4191
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=1_ridge_state.npz",
+      "sha256": "b4e6d829d85e202c069e9f09fec62754005ae9c8e8a46ae245b72152b66636b7",
+      "bytes": 3461
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=2_context_controls.npz",
+      "sha256": "77191bdc6e4e7f7bb3c6f7bb3030060624537d71c54c98cd0d14216c07163480",
+      "bytes": 4195
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=2_ridge_state.npz",
+      "sha256": "e6f197356562afba2966a44731622f9f8e0d2625f80954705eb491f0008a24c4",
+      "bytes": 3461
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=3_context_controls.npz",
+      "sha256": "8fbb24f4de44ed112cc70d6e7ef94f67f95e5ab117b731d8939a427e4a643551",
+      "bytes": 4195
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=3_ridge_state.npz",
+      "sha256": "0721633b5d0a8d45559e8cdbea01401460fc3c39489b7a6a37b65a56cef5dfde",
+      "bytes": 3465
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=4_context_controls.npz",
+      "sha256": "b0013c679866d83c55cca1e1597dabbc30275e07fe247563b71823359e557e0f",
+      "bytes": 4194
+    },
+    {
+      "source_ref": "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=4_ridge_state.npz",
+      "sha256": "77f56ffbaf42c3d34f4d27a33b829017d21ae14af275c9f1e9d72f816a287f51",
+      "bytes": 3464
+    },
+    {
+      "source_ref": "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/topk_ndcg_inference.csv",
+      "sha256": "ebac7f2b3dd27a1cecb42828488bbdcdb9fe3c084918d7f7d6434471c7191701",
+      "bytes": 9981
+    },
+    {
+      "source_ref": "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/screening_exploratory_inference.csv",
+      "sha256": "b78228a9860136273c340623dab624c2bbcfc5e9192629d5bd66ceec68637c40",
+      "bytes": 2307
+    },
+    {
+      "source_ref": "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/structural_and_architecture_inference.csv",
+      "sha256": "00eed905efd81d5940ecb15f887d5d297dbf1981dec528f6234c8efd0e820198",
+      "bytes": 17436
+    },
+    {
+      "source_ref": "outputs/COVER_v1.1.5_screening_focus_20260921/COVER_LightGBM_Table_S16.csv",
+      "sha256": "c933f7c5a97f073e96fde2edf2c284d4a65ec4ae5dcb9641ed3d7f97db36007f",
+      "bytes": 6515
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/results/per_assay_core.csv",
+      "sha256": "ad64058b36ead59efce6f99cc67c6a99a71612687eae42c1f7d760862c726adb",
+      "bytes": 130754,
+      "sources": [
+        "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/per_assay_spearman.csv",
+        "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/results/per_assay_spearman_v1.1.1.csv"
+      ],
+      "transform": "Rename the four core model columns to their analysis keys; replace their values from the primary stage-1 CSV, matched by DMS_id. Retain every other published column. Sort by DMS_id.",
+      "rows": 217,
+      "scope": "Tables 1/2 and all published descriptive expert, architecture and ablation assay correlations."
+    },
+    {
+      "path": "data/results/paired_core_expected.csv",
+      "sha256": "03ffc9d321dcadfa6e27b25e15dc320fa4737d5113b066ef4285a58d02e50977",
+      "bytes": 4072,
+      "sources": [
+        "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/results/paired_core_contrasts_v1.1.1.csv"
+      ],
+      "transform": "Byte-preserving copy.",
+      "rows": 12,
+      "scope": "Reference results for four contrasts at each of three aggregation levels; not replacement observations."
+    },
+    {
+      "path": "data/frozen/metadata.csv",
+      "sha256": "d2db3de96cdf88f450d83d2f6785dff6de8a0b6023c6cb6fccc81c3385f3b48c",
+      "bytes": 19390,
+      "sources": [
+        "external/ProteinGym/reference_files/DMS_substitutions.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/outer_fold_assignments_v1.0.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/cluster_assignments_30pct_v1.0.csv"
+      ],
+      "transform": "Filter to the 217 released assays, preserving original ProteinGym metadata row order. Project the seven context/identity columns and join fold and cluster by DMS_id. Omit target sequences and obsolete performance columns.",
+      "rows": 217,
+      "scope": "Frozen input metadata, assay folds and bootstrap clusters."
+    },
+    {
+      "path": "data/frozen/training_sample.csv.gz",
+      "sha256": "b4d665fd8409c1193b43e33ef9e54f92c005967267c20ff3248da739275b78d3",
+      "bytes": 241053,
+      "sources": [
+        "reproducibility/COVER-reproducibility/data/frozen/phase2_training_subsample_identifiers_v1.0.csv"
+      ],
+      "transform": "Project DMS_id and mutant, preserving source row order; gzip with deterministic zero mtime and no original filename.",
+      "rows": 64236,
+      "scope": "Frozen training membership; folds are joined from metadata.csv."
+    },
+    {
+      "path": "data/frozen/alternative_folds.csv",
+      "sha256": "e3100856379053ccbbb6c8ad00e5f829d02e80cac359e0cc16225e48a8a73a37",
+      "bytes": 8263,
+      "sources": [
+        "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_1_v1.1.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_2_v1.1.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_3_v1.1.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_4_v1.1.csv",
+        "reproducibility/COVER-reproducibility/data/frozen/repeat_assignment_5_v1.1.csv"
+      ],
+      "transform": "Join each frozen repeat fold by DMS_id; one column per repeat. Preserve metadata assay order. Seeds are recorded in provenance.",
+      "rows": 217,
+      "scope": "Five additional fold assignments."
+    },
+    {
+      "path": "data/results/alternative_fold_effects.csv",
+      "sha256": "753182d1a2fc38fa4658b75c88190e803bb101f3a243749d95adcb3898ca3b85",
+      "bytes": 1164,
+      "sources": [
+        "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/alternative_allocation_effects.csv"
+      ],
+      "transform": "Preserve the fifteen reported full-minus-fixed effects and method values.",
+      "rows": 15,
+      "scope": "Five additional assignments at three aggregation levels."
+    },
+    {
+      "path": "data/external/assay_metrics_12.csv",
+      "sha256": "05a4976dbed51d226fa92fba8830665ef15d21c232456f81b32edba4c803b1c7",
+      "bytes": 26750,
+      "sources": [
+        "outputs/COVER_external_12_assay_subset_20261029/assay_metrics_12.csv"
+      ],
+      "transform": "Retain COVER and Fixed fusion for all twelve assays and all thirteen endpoints; preserve row order and unrounded stored values.",
+      "rows": 312,
+      "scope": "Metric replay for supplementary Tables S17/S18; no new expert inference is claimed."
+    },
+    {
+      "path": "data/external/targets_12.csv",
+      "sha256": "3cd1535c08426b705a7ac490a2675447eb50e36158e392b7a70026a405d0fdcd",
+      "bytes": 4578,
+      "sources": [
+        "outputs/COVER_v1.7_targeted_update_20261029/external_checks/mavedb_target_sequence_manifest_12.csv"
+      ],
+      "transform": "Project the twelve source identities, target descriptions, source URLs, snapshot dates and hashes. Omit local snapshot paths and target sequences.",
+      "rows": 12,
+      "scope": "Public MaveDB metadata snapshot provenance; snapshot versions are not asserted to be the original scoring-run versions."
+    },
+    {
+      "path": "models/frozen_ridge.json",
+      "sha256": "d6231881b7549ad8c424be388062fc1d0fa68d29c88883e58ef53cf434323f2e",
+      "bytes": 143464,
+      "sources": [
+        "outputs/revision/COVER_phase2e_context_controls_v1/outer_fold_model_summary_v1.0.csv",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/outer_fold_model_summary_v1.0.csv",
+        "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=0_context_controls.npz",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=0_ridge_state.npz",
+        "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=1_context_controls.npz",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=1_ridge_state.npz",
+        "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=2_context_controls.npz",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=2_ridge_state.npz",
+        "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=3_context_controls.npz",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=3_ridge_state.npz",
+        "outputs/revision/COVER_phase2e_context_controls_v1/model_states/outer_fold=4_context_controls.npz",
+        "outputs/revision/COVER_phase2_corrected_v1/corrected_ridge_oof/model_states/outer_fold=4_ridge_state.npz"
+      ],
+      "transform": "Decode NPZ float64 arrays without rounding. Coefficients begin with the intercept; feature_names exclude it. Export training-fitted category levels from the original fold summaries; fixed fusion has no context schema. No fitting performed.",
+      "rows": 20,
+      "scope": "Five folds for the formal full model, fixed fusion, no-interactions and no-context-main-effects models."
+    },
+    {
+      "path": "data/results/maintext_contrasts.csv",
+      "sha256": "89fedbb399df0f0925478c1e6f44c9ebed7f935318c645af23761cd56206e046",
+      "bytes": 23207,
+      "sources": [
+        "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/topk_ndcg_inference.csv",
+        "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/screening_exploratory_inference.csv",
+        "outputs/publication/COVER/manuscript_bioinformatics_v1.1.1/supplementary/source_data/structural_and_architecture_inference.csv",
+        "outputs/COVER_v1.1.5_screening_focus_20260921/COVER_LightGBM_Table_S16.csv"
+      ],
+      "transform": "Concatenate published S7, S12, S6 architecture contrasts and S16. Harmonize column names and aggregation labels only; preserve all supplied effects, intervals, raw p values and adjusted p values. S16 adjusted p values retain its complete historical families, not a recalculation over the displayed subset.",
+      "rows": 78,
+      "scope": "Frozen screening and architecture contrast results; this table is a compact result archive, not a replacement for variant-level observations."
+    }
+  ],
+  "code_sources": [
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/scripts/run_phase2_gate2a.py",
+      "sha256": "33d6fc7c90d68c508106bcddbc4e662b7c193cf61c7c6437a1c182bfecf7fcab"
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/scripts/run_phase2e_context_controls.py",
+      "sha256": "75518ab269829ca1f007e749cc9d1fef60a68cc6b9e01bab41b7fa5edfb777df"
+    },
+    {
+      "source_ref": "reproducibility/COVER-reproducibility/scripts/run_phase2_corrected_ridge.py",
+      "sha256": "4e1953d9547a6bc3387bb3e209c1ddebcbac1645c56310d7b5927964b4943690"
+    },
+    {
+      "source_ref": "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/scripts/compute_core_statistics.py",
+      "sha256": "e4f52ae4244198b368b2105623c23b8df18a40eb6bab490e7de39a11ec6dd67c"
+    },
+    {
+      "source_ref": "outputs/revision/COVER_v1.1.1_full_model_upgrade/stage1_core_statistics/scripts/stage1_common.py",
+      "sha256": "bbf0ba8483829991cf1ce27f003cf7249844498eda6452bff9bb0ce5430b70c4"
+    }
+  ],
+  "adaptations": [
+    "Portable file arguments and a single compact API replace workspace-specific execution and manuscript-editing scripts.",
+    "Mathematical feature order, frozen coefficients, precision boundaries and nested selection rule are retained.",
+    "New candidate inputs must use the 20 standard amino acids; invalid substitutions are rejected.",
+    "Statistical recomputation uses the original cluster bootstrap hierarchy and four structural-contrast families."
+  ],
+  "example": {
+    "file": "examples/ralbp1.csv",
+    "assay": "RBP1_HUMAN_Tsuboyama_2023_2KWH",
+    "rows": 1332,
+    "source_ref": "outputs/revision/COVER_phase2_corrected_v1/gate2a/phase2_corrected_base_data_v1.0.parquet",
+    "source_sha256": "920c986ccad3fd630d069a8c9c8d1d4c1e3bd2de7a02f712c614029579be1918",
+    "transformation": "All rows for this assay, raw scores and metadata projected to the documented input columns; CSV export."
+  },
+  "manuscript": {
+    "version": "1.7",
+    "main_sha256": "e6f2c953d0370da31c31df7e9fe45903d0928ef8373c57b58712c8534f8854f1",
+    "supplementary_sha256": "113df68bdb06f557d3e5c2011e3c29c63a03f5fce46fe1add2f4c117adabb9ed"
+  },
+  "frozen_bundle_assignments": "assay_folds is copied from the same frozen metadata used to train the five outer fits; custom refits save their own map."
+}

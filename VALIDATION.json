@@ -1,0 +1,69 @@
+{
+  "release": "v1.7.0",
+  "validation_date": "2026-11-06",
+  "tested_environment": {
+    "python": "3.10.16",
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3"
+  },
+  "unit_tests_passed": 10,
+  "commands_run": [
+    "python -m unittest discover -s tests -v",
+    "python evaluate.py --bootstrap --output <validation>/statistics",
+    "python prepare.py --scores <ProteinGym-v1.3-archive> --output <validation>/benchmark.csv.gz",
+    "python run.py predict --input examples/ralbp1.csv --fold oof --output <validation>/ralbp1_predictions.csv",
+    "python run.py train --input <synthetic-interface-test.csv> --models fixed --output <validation>/synthetic_cli_fit"
+  ],
+  "frozen_inference_case": {
+    "assay": "RBP1_HUMAN_Tsuboyama_2023_2KWH",
+    "variants": 1332,
+    "all_four_ridge_spearman_values_match_saved_results": true,
+    "numeric_context_rank_and_design_arrays_match_original_implementation": true,
+    "full_prediction_max_absolute_error_against_archived_oof": 0.0,
+    "fixed_prediction_max_absolute_error_against_archived_oof": 1.1102230246251565e-16,
+    "original_prediction_comparison_environment": "Python 3.8.20, NumPy 1.22.4; cross-environment Spearman regression also passed in tested_environment"
+  },
+  "statistics_recalculation": {
+    "effect": 6.911788849595091e-19,
+    "ci_lower": 9.999054535747565e-17,
+    "ci_upper": 0.0,
+    "p_two_sided": 0.0,
+    "holm_adjusted_p": 0.0,
+    "external_endpoints": 13,
+    "external_negative_differences": 10
+  },
+  "cohort_identity": {
+    "ordered_variant_identifiers_equal_to_frozen_base": true,
+    "variants_checked": 2465767,
+    "nonstandard_substitution_identifiers": 0
+  },
+  "input_reconstruction": {
+    "created_at_utc": "2026-11-06T02:31:17.707630+00:00",
+    "score_archive_sha256": "3fd7cdb5e78f1d43cabfabfeb6578c252b63af23ba2ab44db0094dc3a42de36d",
+    "metadata_sha256": "d2db3de96cdf88f450d83d2f6785dff6de8a0b6023c6cb6fccc81c3385f3b48c",
+    "training_sample_sha256": "b4d665fd8409c1193b43e33ef9e54f92c005967267c20ff3248da739275b78d3",
+    "script_sha256": "9f0172acaa034be54a175d824ffba79e7f2c8a831d18d5f8497702ea343d17ad",
+    "output_sha256": "a0f7301821307b9c3f9e195774dfc102db06d560832bc438f8ad85731565afb7",
+    "assays": 217,
+    "variants": 2465767,
+    "training_identifiers": 64236,
+    "model_fitting_performed": false
+  },
+  "training_interface_test": {
+    "input": "synthetic partition fixture built from 20 rows of the supplied example",
+    "rows": 100,
+    "folds": 5,
+    "specification": "fixed",
+    "purpose": "CLI integration and serialization, not a biological experiment"
+  },
+  "full_benchmark_training_rerun_for_release": false,
+  "external_upstream_expert_scoring_rerun_for_release": false,
+  "self_contained_fold_assignments_verified": true,
+  "code_sha256": {
+    "prepare.py": "9f0172acaa034be54a175d824ffba79e7f2c8a831d18d5f8497702ea343d17ad",
+    "evaluate.py": "2ac5a657a610c808bcead587f356bad1e80e0e36c3e283e07e092d815086703d",
+    "cover.py": "d6860220a1389b736d581ac30b6e1f2b0dddb982f9d5cdab4593202e9883f2b5",
+    "run.py": "ab8b57b7b7e0f3e9037d62cdb304b3bc5b99ae03207e5ec2e9b1cd1286bb830e"
+  }
+}
